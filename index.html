@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/19eae4ac1c.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <ul id="sidemenu" >
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars  menu" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi,I'm <span>Aakarshit Raj</span><br>from India</h1>
+                <img class="mp" src="mypic.png" width="400" height="600" >
+            </div>
+        </div>
+    </div>
+
+    <!------About----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Aakarshit Raj, a dedicated Frontend Developer currently enrolled in the Bachelor of Technology program for Computer Science at KIIT University. I'm passionate about creating stunning and responsive web interfaces, and I've honed my skills in HTML, CSS, and JavaScript to make that happen. My expertise extends to React, a powerful library for crafting interactive web applications, where I specialize in building dynamic user experiences. But I'm not just limited to the frontend—I also have a versatile skill set that includes languages like C++, C, Java, and Python, along with proficiency in data structures and algorithms. I'm committed to continuous learning and thrive on adapting to new challenges, making me a well-rounded and promising talent in the realm of computer science.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Language:-</span><br>
+                            <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Python</li>                                 
+                            </ul></li>
+                            <li><span>Front-end Technologies:-</span><br> <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>ReactJs</li>                                 
+                            </ul></li></li>
+                                <li><span>Technologies/Frameworks/Libraries:-</span><br>
+                                    <ul>
+                                    <li>SQL</li>
+                                    <li>LINUX</li>
+                                    <li>MongoDb(Basic)</li>
+                                    <li>Node.Js(Basic)</li>
+                                    <li>Express.Js(Basic)</li>                                 
+                                </ul></li></li></li>
+                                <li><span>Developer Tools:-</span><br>
+                                    <ul>
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                    <li>Visual Studio Code</li>
+                                    <li>Eclipse</li>                                
+                                </ul></li></li></li>
+                        </ul>   
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Product Engineer Intern</span><br><br>HighRadius </li>
+                        May 2023 - Jun 2023
+                        <br><br>
+                        Got a project on AI-Enabled B2B Fintech Application (Order Amount Prediction). 
+                        <br>Implemented different machine learning models, SQL, Java, HTML/CSS/JS, ReactJS, Material UI
+                       
+                        </ul>   
+                        <a href="HighRadius.pdf" download class="btn btn2">Internship Certificate Link Here</a>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul class="edu">
+                        <li>Kalinga Institute of Industrial Technology <span style="padding: 40px;">2020-Present</span>
+                                <ol class="edi"> <li>Bhubaneswar, Odisha</li>
+                            <li>Bachelor of Technology in Computer Science Engineering </li><li>CGPA-8.51(till 6thsem)</li></ol></li>
+                        <br>
+                            <li>St Pauls School <span style="padding: 40px;">2017-2019</span>
+                                <ol class="edi"> <li>Sasaram,Bihar</li>
+                            <li>Class 12th-Central Board of Secondary Education (CBSE)  </li><li>Percentage – 78.6%</li></ol></li>    
+                            <br>
+                            <li>DAV Public School <span style="padding: 40px;">June-2017</span>
+                                <ol class="edi"> <li>Sasaram,Bihar</li>
+                            <li>Class 10th-Central Board of Secondary Education (CBSE)  </li><li>CGPA-9.4</li></ol></li>  
+                        </ul>   
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------Services----------- -->
+    <div id="services"></div>
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <!-- <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, reiciendis vero! In sint consequuntur corrupti culpa facere voluptatibus, ea ab possimus fugiat dolor. Sit sint labore blanditiis vitae placeat reiciendis.</p>
+                <a href="#">Learn more</a>
+            </div> -->
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/c-programming.png" alt="c-programming"/>
+                <h2>C Programming Language</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+                <h2>C++ Programming Language</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
+                <h2>Java Programming Language</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+                <h2>Python Programming Language</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/source-code.png" alt="source-code"/>
+                <h2>Data Structure & Algorithms</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                <h2>HTML</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+                <h2>CSS</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+                <h2>JavaScript</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
+                <h2>React</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/nodejs.png" alt="nodejs"/>
+                <h2>NodeJs</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/>
+                <h2>MongoDb</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/express-js.png" alt="express-js"/>
+                <h2>ExpreeJs</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/linux--v1.png" alt="linux--v1"/>
+                <h2>Linux</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/>
+                <h2>Git</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1"/>
+                <h2>GitHub</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
+                <h2>Visual Studio Code</h2>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------Portfolio-----------------   -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------- Certification -------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certification</h1>
+            <div class="work-list">
+                <div class="cert">
+                    <img src="psb.png">
+                    <div class="clayer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="cert">
+                    <img src="psi.png">
+                    <div class="clayer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="cert">
+                    <img src="react.png">
+                    <div class="clayer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="cert">
+                    <img src="aws.png">
+                    <div class="clayer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id odio iusto cupiditate aliquam. Natus fugiat rerum, tenetur quos deleniti possimus!</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-- -------------------Contact-----------------   -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 7277889991</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aakarshit-raj-0022a6237/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Aakarshit Resume 2024 .pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Aakarshit Raj</p>
+    </div>
+</div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzfB97EMo8cKEdVbMjc4qnTJ-KYS37DFSD01u_seqTbzTqyc9SZevMw9CeESSTH2-kb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msgd=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
