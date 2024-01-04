@@ -328,7 +328,8 @@ nav .menu{
 @media only screen  and (max-width:767px){
     .mp {
         display: block;
-        margin-right: 10px; /* Adjust margin as needed */
+        margin-right: 5px;
+        margin-top: 5px;
     }
     #header{
         background-image: url();
