@@ -329,6 +329,8 @@ nav .menu{
     .mp {
         display: block;
         margin-right: 5px;
+        width:300;
+        height:400;
     }
     #header{
         background-image: url();
@@ -374,7 +376,7 @@ nav .menu{
         margin-bottom: 30px;
     }
     .about-col-2{
-        font-size: 14px;
+        font-size: 20px;
     }
     .tab-links{
         font-size: 16px;
