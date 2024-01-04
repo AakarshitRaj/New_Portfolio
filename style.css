@@ -370,7 +370,10 @@ nav .menu{
         font-size: 40px;
     }
     .about-col-1,.about-col-2{
-        flex-basis: 100%;
+        width: 100%;
+        /* text-align:left; Center the text */
+        margin-right: 10px
+
     }
     .about-col-1{
         margin-bottom: 30px;
@@ -387,6 +390,10 @@ nav .menu{
     }
     .copyright{
         font-size: 14px;
+    }
+    .services-list{
+        width: 100%;
+        margin: 10px auto;
     }
 }
 #msg{
