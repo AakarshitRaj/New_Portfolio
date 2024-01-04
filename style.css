@@ -162,7 +162,7 @@ margin-top: 20px;
     margin-bottom: 30px;
 }
 .services-list div h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 100;
     margin-bottom: 15px;
 }
@@ -422,7 +422,7 @@ nav .menu{
 .clayer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(116, 218, 225, 0.6),#bbd2e4);
+    background: linear-gradient(rgba(116, 218, 225, 0.6),#154468);
     border-radius: 10px;
     position: absolute;
     left: 0;
